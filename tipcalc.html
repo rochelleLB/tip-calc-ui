@@ -1,0 +1,57 @@
+<!doctype html> 
+<html lang="en">
+
+<head>
+	<title>Tip Calculator 2.0</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="tipcalc.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+	<div id="form-body">
+
+		<h1>Tip Calculator<span class="full-stop">.</span></h1>
+		<input type="text" name="bill-amount" placeholder="Bill Amount" id="bill-amount">
+		<h3 class="tip-percentage-title">Tip Percentage</h3>
+
+		<div>
+			<ul class="tip-percentage-buttons">
+				<li id="ten" value="10">
+					<img class="smiley" src="images/Unhappy.svg" alt="">
+					<span>10%</span>
+				</li>
+				<li id="fifteen" value="15">
+					<img class="smiley" src="images/Smiley.svg" alt="smiley face">
+					<span>15%</span>
+				</li>
+					
+				<li id="twenty" value="20">
+					<img class="smiley" src="images/Happy.svg" alt="happy face">
+					<span>20%</span>
+				</li>
+			</ul>
+		</div>
+
+		<h3 class="how-many-title">How many people sharing?</h3>
+		<div class="people-sharing">
+			<button id="minus"><img src="images/Minus.svg" alt="minus symbol"></button>
+			
+			<button id="plus"><img src="images/Plus.svg" alt="plus symbol"></button>
+		</div>
+
+		<div class="tip-total">
+			<h3 class="total-tip-title">Total tip per person</h3>
+			<p class="total-amount">5.96<span class="total-each"> each</span></p>
+		</div>
+
+	</div>
+</div>
+
+<script src="tipcalc.js" type="text/javascript"></script>
+</body>
+
+</html>
