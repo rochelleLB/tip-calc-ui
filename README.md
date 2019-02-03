@@ -1,1 +1,1 @@
-Not functional tip calculator design using SCSS.
+Not functional tip calculator design using SCSS and SVGs.
